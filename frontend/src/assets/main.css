@@ -1,0 +1,87 @@
+/* 全局样式 */
+:root {
+  --primary-color: #409eff;
+  --success-color: #67c23a;
+  --warning-color: #e6a23c;
+  --danger-color: #f56c6c;
+  --info-color: #909399;
+  --text-color: #303133;
+  --border-color: #dcdfe6;
+  --background-color: #f5f7fa;
+}
+
+/* 积分颜色 */
+.white-bg {
+  background-color: #ffffff;
+  border: 1px solid #dcdfe6;
+}
+
+.green-bg {
+  background-color: #67c23a;
+  color: white;
+}
+
+.red-bg {
+  background-color: #f56c6c;
+  color: white;
+}
+
+.purple-bg {
+  background-color: #9254de;
+  color: white;
+}
+
+.yellow-bg {
+  background-color: #e6a23c;
+  color: white;
+}
+
+.profit-positive {
+  color: #f56c6c;
+  font-weight: bold;
+}
+
+.profit-negative {
+  color: #67c23a;
+  font-weight: bold;
+}
+
+/* 表单样式 */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+/* 表格样式 */
+.score-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.score-table th {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 12px 8px;
+  text-align: center;
+}
+
+.score-table td {
+  padding: 12px 8px;
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.score-table tr:hover {
+  background-color: var(--background-color);
+}
